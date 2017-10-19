@@ -1,0 +1,22 @@
+{
+  "name": "study-marking-201709",
+  "version": "1.0.0",
+  "description": "study-marking-201709",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryoichi-obara/study-marking-201709.git"
+  },
+  "author": "Ryoichi Obara <npmjs0102@gmail.com> (http://ryoichi0102.hatenablog.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryoichi-obara/study-marking-201709/issues"
+  },
+  "homepage": "https://github.com/ryoichi-obara/study-marking-201709#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
