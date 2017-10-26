@@ -1,7 +1,5 @@
 import test from 'ava'
-import studyMarking201709 from '../index'
-
-const sm = new studyMarking201709();
+import sm from '../index'
 
 // ----------------------------------------
 // isAvailable

@@ -7,20 +7,15 @@
 
 const SUFFIX = '=?';
 
-function studyMarking201709() {
-
-  this.isAvailable = function(message) {
-    var found = message.lastIndexOf(SUFFIX);
-    return (found != -1 && found == message.length - SUFFIX.length);
-  }
-
-  this.extract = function(message) {
-    return message.substr(0, message.length - SUFFIX.length);
-  }
-
-  this.evalExpression = function(message) {
-    return eval(message);
-  }
+module.exports.isAvailable = function(message) {
+  var found = message.lastIndexOf(SUFFIX);
+  return (found != -1 && found == message.length - SUFFIX.length);
 }
 
-module.exports = studyMarking201709;
+module.exports.extract = function(message) {
+  return message.substr(0, message.length - SUFFIX.length);
+}
+
+module.exports.evalExpression = function(message) {
+  return eval(message);
+}
