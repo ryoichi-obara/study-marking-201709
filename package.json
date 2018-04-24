@@ -1,6 +1,6 @@
 {
   "name": "study-marking-201709",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "study-marking-201709",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "coveralls": "^3.0.0",
-    "nyc": "^11.4.1"
+    "nyc": "^11.7.1"
   }
 }
