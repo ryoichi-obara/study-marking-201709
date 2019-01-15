@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/ryoichi-obara/study-marking-201709#readme",
   "devDependencies": {
-    "ava": "^0.25.0",
-    "coveralls": "^3.0.0",
-    "nyc": "^11.7.1"
+    "ava": "^1.1.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.1.0"
   }
 }
